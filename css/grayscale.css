@@ -37,6 +37,10 @@
   background-color: #000;
 }
 
+#mainNav .social {
+  font-size: 22px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -146,7 +150,7 @@
 }
 
 .row h2, .row h4, .row h5, .row .mb-4 {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0rem;
   font-weight: 300;
 }
 
@@ -164,6 +168,10 @@
 
 .btn-primary {
   background-color: #0ea5dd;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .btn-primary:hover {
@@ -205,7 +213,13 @@
     padding: 0 0 0 2rem;
     /* border-left: 0.5rem solid #64a19d; */
     border-left: 0.5rem solid #0ea5dd;
+
   }
+
+  .projects-section .featured-text h4 {
+    font-weight: 400;
+  }
+
 }
 
 .projects-section .project-text {
@@ -216,7 +230,14 @@
 @media (min-width: 992px) {
   .projects-section .project-text {
     /* padding: 5rem; */
+    font-size: 16px;
+    font-weight: 300;
   }
+
+  .projects-section .project-text h4 {
+    font-weight: 400;
+  }
+
   .projects-section .project-text hr {
     /* border-color: #64a19d; */
     border-color: #0ea5dd;
@@ -247,6 +268,63 @@
   border: 0;
 }
 
+
+#skills {
+  padding: 4em 0;
+  background-color: #6dc353;
+}
+
+#skills h2 {
+  color: #fff;
+}
+
+#skills .icon-text {
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  /* color: transparent; */
+  margin-bottom: 7px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.2s ease-out;
+  font-family: Roboto, sans-serif;
+}
+
+#skills .redux-icon {
+  text-align: center;
+}
+
+#skills svg {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  /* margin: 2em auto; */
+}
+
+.skills-container {
+  padding: 2em;
+  transition: 0.3s ease-in-out;
+}
+
+.skills {
+  display: flex;
+  color: #fff;
+}
+
+.skills div {
+  margin-bottom: 30px;
+}
+
+.skills i {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  line-height: 1;
+}
+
 .contact-section {
   padding: 5rem 0 0;
 }
@@ -270,7 +348,7 @@
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .contact-section .social a {
@@ -317,6 +395,8 @@ img {
 
 .bg-black {
   background-color: #161616 !important;
+  border-radius: 7px;
+  margin: -10px;
 }
 
 .bg-primary {
@@ -328,5 +408,5 @@ img {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
