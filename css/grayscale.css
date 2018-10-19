@@ -149,11 +149,33 @@
   font-weight: 400;
 }
 
+.project-title-container {
+  vertical-align: middle;
+  display: flex;
+}
+
+.project-title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0rem;
+}
+
+.live-link-a {
+  margin-left: 7px;
+}
+
+.project, .live-link {
+  transition: 0.3s ease-out;
+}
+
+.live-link:hover > p {
+  color: #0ea5dd;
+}
+
 .row h2, .row h4, .row h5, .row .mb-4 {
   letter-spacing: 0rem;
   font-weight: 300;
 }
-
 
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -267,7 +289,6 @@
   letter-spacing: 0.15rem;
   border: 0;
 }
-
 
 #skills {
   padding: 4em 0;
@@ -392,6 +413,24 @@ img {
   border-radius: 7px;
   /* margin: 27px; */
 }
+
+.project-img-div {
+  z-index: 999;
+}
+
+.img-fluid {
+  transition: 0.3s ease-out;
+}
+
+.project:hover {
+  z-index: 1000;
+  transform: scale(1.05);
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
 
 .bg-black {
   background-color: #161616 !important;
