@@ -180,11 +180,17 @@
   margin-left: 7px;
 }
 
+.live-link-a .heirbnb-live-link {
+  color: black;
+  letter-spacing: 0rem;
+}
+
 .project, .live-link {
+  color: #fff;
   transition: 0.3s ease-out;
 }
 
-.live-link:hover > p {
+.live-link:hover {
   color: #0ea5dd;
 }
 
