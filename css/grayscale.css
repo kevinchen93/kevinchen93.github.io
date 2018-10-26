@@ -24,6 +24,13 @@
   color: #fff;
   font-weight: 300;
   padding: .9rem 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#mainNav .navbar-brand:hover {
+  color: #1eaedb;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -41,6 +48,12 @@
   font-size: 22px;
 }
 
+#mainNav .social a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -53,6 +66,9 @@
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: rgba(255, 255, 255);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -78,15 +94,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #1eaedb;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #1eaedb;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #1eaedb;
   }
 }
 
@@ -177,6 +193,7 @@
   font-weight: 300;
 }
 
+
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -186,6 +203,11 @@
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+}
+
+#resume-btn {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .btn-primary {
@@ -309,7 +331,7 @@
   text-align: center;
   color: #fff;
   font-size: 14px;
-  transition: 0.2s ease-out;
+  transition: 0.3s ease-out;
   font-family: Roboto, sans-serif;
 }
 
@@ -380,8 +402,11 @@
   border-radius: 100%;
   line-height: 3rem;
   color: #0ea5dd;
-  -webkit-transition: background-color 0.5s ease-in-out;
-  transition: background-color 0.5s ease-in-out;
+  /* -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out; */
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contact-section .social a:hover {
