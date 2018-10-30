@@ -363,7 +363,7 @@
 }
 
 .skills div {
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 
 .skills i {
@@ -381,25 +381,27 @@
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 10px 10px;
   position: absolute;
   z-index: 1;
-  bottom: 110%;
+  bottom: 116%;
   left: 46%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
   text-transform: uppercase;
   font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
 .icon-text .tooltiptext:after {
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 47%;
   margin-left: -5px;
-  border-width: 5px;
+  border-width: 10px;
   border-style: solid;
   border-color: #0ea5dd transparent transparent transparent;
 }
@@ -408,7 +410,12 @@
   color: #0ea5dd;
 }
 
-.skills i:hover .tooltiptext {
+.redux-icon:hover g {
+  fill: #0ea5dd;
+}
+
+.skills i:hover .tooltiptext,
+.redux-icon:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
