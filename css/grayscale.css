@@ -187,7 +187,7 @@
 }
 
 .main-live-link {
-  border: 4px solid #000;
+  border: 3px solid #000;
   border-radius: 7px;
   color: #fff;
   font-size: 20px;
@@ -200,7 +200,7 @@
   border-radius: 7px;
   color: #fff;
   font-size: 20px;
-  box-shadow: 3px 0 20px 0px rgba(255,255, 255);
+  box-shadow: 0 0 10px 0px rgba(255,255, 255);
   padding: 2px 5px;
 }
 
