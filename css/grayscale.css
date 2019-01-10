@@ -252,14 +252,14 @@
 
 .btn-primary {
   background-color: #0ea5dd;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .btn-primary:hover {
-  background-color: #1eaedb;
+  /* background-color: #1eaedb; */
 }
 
 .btn-primary:focus {
