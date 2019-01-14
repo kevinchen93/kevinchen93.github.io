@@ -218,7 +218,7 @@
 
 .row h2, .row h4, .row h5, .row .mb-4 {
   letter-spacing: 0rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .content {
@@ -558,7 +558,7 @@ img {
 }
 
 .bg-black {
-  background-color: #darkcyan !important;
+  background-color: darkcyan !important;
 }
 
 
