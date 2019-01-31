@@ -496,10 +496,12 @@
 }
 
 .contact-section .social a {
-  text-align: center;
-  box-sizing: border-box;
+  /* text-align: center; */
   height: 3rem;
   width: 3rem;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
   background: #fff;
   border-radius: 100%;
   line-height: 3rem;
@@ -520,7 +522,11 @@
 }
 
 .contact-section .social a>i {
-  font-size: 19px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 body {
