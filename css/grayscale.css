@@ -289,6 +289,10 @@
   padding: 5rem 0;
 }
 
+.projects-section h2 {
+  color: #5bc2bf;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
