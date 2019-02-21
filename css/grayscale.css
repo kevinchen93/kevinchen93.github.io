@@ -187,7 +187,7 @@
 }
 
 .main-live-link {
-  border: 3px solid #000;
+  border: 3px solid #5bc2bf;
   border-radius: 7px;
   color: #fff;
   font-size: 20px;
@@ -213,7 +213,6 @@
 
 .main-live-link:hover,
 .live-link:hover {
-  color: #0ea5dd;
 }
 
 .row h2, .row h4, .row h5, .row .mb-4 {
