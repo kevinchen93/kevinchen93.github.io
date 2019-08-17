@@ -563,10 +563,6 @@ a:focus, a:hover {
   color: #1eaedb;
 }
 
-img {
-  border: 2px solid #1eaedb;
-}
-
 .project-img-div {
   z-index: 999;
 }
@@ -577,17 +573,11 @@ img {
 
 .project:hover {
   z-index: 1000;
-  /* transform: scale(1.05); */
-}
-
-.img-fluid:hover {
-  /* transform: scale(1.05); */
 }
 
 .bg-black {
   background-color: #19a69b !important;
 }
-
 
 .bg-primary {
   background-color: #64a19d !important;
